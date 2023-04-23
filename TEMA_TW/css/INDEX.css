@@ -1,0 +1,166 @@
+
+body{
+  margin: 0;
+  background-color: silver;
+}
+
+
+#parallax {
+ margin-left:12%;
+  position: relative;
+  width: 75%;
+  height: 25%;
+  background-image: url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-3.png), url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-2.png), url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 50% 50%;
+}
+h1 {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Arial";
+  text-transform: uppercase;
+  opacity: .2;
+  font-size: 70px;
+}
+
+h3 {
+  position: relative;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Arial";
+  text-transform: uppercase;
+  opacity: .3;
+  font-size: 30px;
+}
+
+
+.paragraf {
+        background-color:  rgb(180, 180, 180);
+		opacity: .9;
+		color: black;
+        font-family: verdana;
+        font-size: 20px;
+		 margin-left:2%;
+		 margin-right:2%;
+		
+		 
+	 }
+	  
+      table, th, td {
+        border:0;
+      }
+	  
+      .topnav {
+        background-color: white;
+        overflow: hidden;
+      }
+      
+     
+      .topnav a {
+        float: right;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+		background: rgba(255, 116, 0, 0.21);
+		border-radius: 4px;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+      }
+      
+     
+      .topnav a:hover {
+
+background: rgba(255, 106, 0, 0.65);
+border-radius: 4px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+color: white;
+	  }
+
+
+.form {
+	  width: 80%; 
+	  margin-left:10%;
+	
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+input[type=email], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+input[type=tel], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+.form_container button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form_container button{
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
+
+.main{
+
+    width: auto;
+    margin: auto;
+
+}
+
+.harta{
+    
+     width: auto;
+     height: auto;
+     margin: auto; 
+	
+}
+
+.logo {
+	
+	
+}
+	
+	
